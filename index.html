@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+      .h1 {
+        color: black;
+      }
+      .b{
+        color:#1a0000;
+        text-align:center;
+      }
+      .static {
+    position: static;
+    background-color: #7a0b48;
+    color: skyblue;
+    padding: 20px;
+    border: 1px solid #8dc40f;
+    width: 300px;
+    height: 200px;
+    left:50px;
+  right:50px;
+  top:50px;
+  bottom:50px;
+      }
+
+.relative{
+  left:50px;
+  right:50px;
+  top:20px;
+  bottom:50px;
+  position: relative;
+  width: 200px;
+  background-color: palevioletred;
+}
+.relative:hover{
+  transition: 1s;
+  left:10px;
+}
+.fixed{
+  background-color: #000;
+  width: fit-content;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  color:#fff;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.absolute-card{
+width: 200px;
+height: 250px;
+position: relative;
+margin-left: 200px;
+margin-top: 100px;
+border:1px solid black;
+}
+.my-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -70px;
+  left: 50px;
+}
+.sticky-btn{
+  position:sticky;
+  bottom: 50px;
+  right: 10px;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #000;
+}
+
+
+      .img-1 {
+        width: 150px;
+        height: 70px;
+        top:50px;
+        left:50px;
+        right:50px;
+        bottom: 50px;
+        margin:10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 50%;
+        border-color: black;
+        border-top: rgb(25, 25, 211);
+      }
+
+    </style>
+</head>
+<body>
+    <h1 class="h1">Static position</h1>
+      <div class="static">
+      <img src="./images/aliabhatt.jpg" alt="" class="img-1" />
+      <div class="h1">I am Alia Bhatt<br>
+      born no 15 March 1993, in Mumbai<br>
+      she is a BOLLYWOOD actress
+    </div>
+    </div>
+    <hr>
+    <h1 class="h1">Relative position</h1>
+    <div class="relative">
+      <img src="./images/aliabhatt.jpg" alt=""   class="img-1"/>
+      </div><br> <br>
+      <hr>
+      <h1 class="h1">Fixed Position</h1>
+      <div class="fixed">
+        This is a bottom bar
+      </div>
+      <hr>
+      <h1 class="h1">Absolute Position</h1>
+      <div class="absolute-card">
+        <img src="./images/Actor-India-Shah-Rukh-Khan.webp" alt="" class="my-img"/><br>
+        <h1 class="b">Shahrukh Khan</h1>
+        <h1 class="b">Bollywood Actor</h1>
+      </div>
+      <hr>
+      <h1 class="h1">Sticky Position</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <button class="sticky-btn">
+        This is sticky button
+      </button>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+    
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem asperiores modi debitis odio repellendus eius, velit possimus unde excepturi nihil vitae quibusdam distinctio voluptates eligendi culpa quos exercitationem dignissimos!
+      </p>
+  </body>
+  
+</html>
